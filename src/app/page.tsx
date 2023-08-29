@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-const baseUrl =
-  "https://collect.dialectapi.to" + "/api/v1/nft-collection-items";
+const baseUrl = "https://collect.dialectapi.to/api/v1/nft-collection-items";
 
 async function fetchItemDetails(itemId: string): Promise<any | null> {
   console.log("fetchItemDetails", itemId);
@@ -20,7 +19,6 @@ export default async function Home() {
 
   console.log("itemDetails", itemDetails);
 
-  
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
