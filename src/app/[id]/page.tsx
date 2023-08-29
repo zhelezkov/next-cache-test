@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+export const runtime = "nodejs";
 export const revalidate = 30;
 
 const baseUrl = "https://collect.dialectapi.to/api/v1/nft-collection-items";
